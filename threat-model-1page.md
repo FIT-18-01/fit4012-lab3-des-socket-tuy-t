@@ -1,8 +1,8 @@
 # Threat Model - Lab 3: Secure Socket with DES
 
 ## Thông tin nhóm
-- **Thành viên 1**: Nguyễn Thị Tuyết - MSSV: 187010644
-- **Thành viên 2**: Cao Minh Hưng - MSSV: 1871020285
+- **Thành viên 1**: Nguyễn Thị Tuyết
+- **Thành viên 2**: Cao Minh Hưng 
 
 ## Assets (Tài sản cần bảo vệ)
 1. **Nội dung bản tin (Plaintext)**: Thông tin gốc cần được giữ bí mật tuyệt đối giữa Sender và Receiver.

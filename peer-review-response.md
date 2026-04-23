@@ -1,8 +1,8 @@
 # Peer Review Response - Lab 3
 
 ## Thông tin nhóm
-- **Thành viên 1**: Nguyễn Thị Tuyết - MSSV: 187010644
-- **Thành viên 2**: Cao Minh Hưng - MSSV: 1871020285
+- **Thành viên 1**: Nguyễn Thị Tuyết 
+- **Thành viên 2**: Cao Minh Hưng 
 
 ## Thành viên 1 góp ý cho thành viên 2
 - **Nguyễn Thị Tuyết góp ý cho Cao Minh Hưng**: Phần Receiver xử lý tách gói tin theo "hợp đồng" (Key|IV|Len|Cipher) khá tốt. Tuy nhiên, Hưng cần lưu ý bổ sung thêm các trường hợp ngoại lệ (Exception Handling) khi nhận được gói tin bị lỗi hoặc không đúng định dạng để chương trình không bị crash đột ngột. Phần Threat Model cũng cần mô tả chi tiết hơn về rủi ro lộ khóa người dùng.

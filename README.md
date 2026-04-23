@@ -3,8 +3,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/XQ0Tagn8)
 
 ## Team members
-- **Thành viên 1**: Nguyễn Thị Tuyết - MSSV: 187010644
-- **Thành viên 2**: Cao Minh Hưng - MSSV: 1871020285
+- **Thành viên 1**: Nguyễn Thị Tuyết 
+- **Thành viên 2**: Cao Minh Hưng 
 
 ## Task division
 - **Thành viên 1 (Tuyết) phụ trách chính**: 

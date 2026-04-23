@@ -1,8 +1,8 @@
 # Report 1 Page - Lab 3: DES Socket Implementation
 
 ## Thông tin nhóm
-- **Thành viên 1**: Nguyễn Thị Tuyết - MSSV: 187010644
-- **Thành viên 2**: Cao Minh Hưng - MSSV: 1871020285
+- **Thành viên 1**: Nguyễn Thị Tuyết 
+- **Thành viên 2**: Cao Minh Hưng 
 
 ## Mục tiêu
 Mục tiêu của bài lab này là xây dựng thành công một hệ thống truyền nhận dữ liệu giữa Sender và Receiver thông qua kết nối TCP Socket. Qua đó, nhóm tìm hiểu cách áp dụng thuật toán mã hóa đối xứng DES ở chế độ CBC (Cipher Block Chaining), quản lý Vector khởi tạo (IV) và kỹ thuật Padding PKCS#7. Đồng thời, bài lab giúp nhận diện các lỗ hổng bảo mật khi thực hiện truyền khóa (Key) trực tiếp trên đường truyền cùng với dữ liệu mã hóa.
