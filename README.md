@@ -99,3 +99,10 @@ pytest tests/ -v
 ```
 ## Threat-model awareness
 Hệ thống hiện tại gửi Key và IV dưới dạng plaintext trên cùng luồng TCP, đây là điểm yếu bảo mật nghiêm trọng nếu triển khai thực tế. Chi tiết phân tích xem tại `threat-model-1page.md`.
+## Ethics & Safe use
+- Chỉ chạy demo trên máy cá nhân, VM, hoặc mạng nội bộ phục vụ học tập.
+- Không quét cổng, không thử nghiệm lên hệ thống không thuộc phạm vi lớp học.
+- Không dùng dữ liệu cá nhân thật hoặc dữ liệu nhạy cảm để demo.
+- Không trình bày hệ thống này như một giải pháp an toàn sẵn sàng triển khai ngoài đời.
+- Nếu tham khảo code/tài liệu, hãy ghi nguồn rõ ràng.
+- Tôn trọng nguyên tắc trung thực học thuật.
