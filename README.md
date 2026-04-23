@@ -86,6 +86,7 @@ SERVER_IP=127.0.0.1 SERVER_PORT=6001 MESSAGE="Xin chao FIT4012" python sender.py
 ### 5) Chạy toàn bộ test
 ```bash
 pytest tests/ -v
+```
 
 ## Input / Output
 
@@ -96,9 +97,10 @@ pytest tests/ -v
 ### Output
 - Sender in ra: thông báo gửi thành công, `Key`, `IV`, `Ciphertext`.
 - Receiver in ra: bản tin gốc sau giải mã.
-```
+
 ## Threat-model awareness
 Hệ thống hiện tại gửi Key và IV dưới dạng plaintext trên cùng luồng TCP, đây là điểm yếu bảo mật nghiêm trọng nếu triển khai thực tế. Chi tiết phân tích xem tại `threat-model-1page.md`.
+
 ## Ethics & Safe use
 - Chỉ chạy demo trên máy cá nhân, VM, hoặc mạng nội bộ phục vụ học tập.
 - Không quét cổng, không thử nghiệm lên hệ thống không thuộc phạm vi lớp học.
